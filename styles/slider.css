@@ -1,0 +1,56 @@
+/* -------------------- SLIDER ------------------------------*/
+
+.rootSlider{
+    background-image: url(https://devlms.ujatech.com/public/storage/uploads/1639052731-banner-1-ucclasroom.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.rootTitle{
+    max-width: 1170px;
+    margin: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rootTitle h2 span {
+    font-weight: 700 !important;
+    font-size: 60px;
+    color: #fff;
+}
+
+.rootTitle h2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.rootButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border: 2px solid #17d0cf;
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 25px;
+    padding: 15px 25px;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button a i {
+    margin-left: 5px;
+    color: #01a6fd;
+}

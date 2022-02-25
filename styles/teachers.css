@@ -1,0 +1,151 @@
+.backgroundImageTeachers {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(https://devlms.ujatech.com/public/images/teacher-b.jpg?7a0928d49893beff6734c7125fd08629);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: visible;
+}
+
+@media screen and (max-width: 767px) {
+    .backgroundWindowTeachers {
+        height: 900px !important;
+    }
+    .containerContactTeachers{
+        justify-content: center;
+    }
+    .containerInfoTeachers p{
+        font-size: 15px;
+    }
+}
+
+.backgroundWindowTeachers {
+    position: absolute;
+    top: 2600px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: -100;
+}
+
+.rootTeachers {
+    width: 100%;
+    height: 700px
+}
+
+.containerTeachers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containerInfoTeachers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.containerInfoTeachers .subtitle{
+    color: #fff;
+}
+
+.containerContactTeachers{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.containerIconsTeachers{
+    width: 40%
+}
+.containerNameTeachers::before{
+    position: relative;
+    display: block;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 50px;
+    left: 90px;
+    background-color: #17d0cf;
+}
+
+.containerIconsTeachers .icon a{
+    color: #adb8bf !important;
+    -webkit-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 5px;
+    background-color: #608297;
+}
+.containerIconsTeachers .icon a:hover{
+    color: #0a4a78 !important;
+    background-color: #fff;
+}
+.itemContactTeachers .contact{ 
+    display: flex;
+    width: 100%;
+}
+.itemContactTeachers{
+    background-color: #0a4a78;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    padding: 20px;
+    border-radius: 4px;
+    width: 250px;
+    margin: 0px 0px 50px 0px;
+}
+
+.containerNameTeachers{
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0px 0px 0px ;
+}
+
+
+.containerImgTeachers{
+    width: 60%;
+    height: 100%;
+}
+.containerImgTeachers img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.containerButton a i{
+    margin-left: 5px;
+    color: #01a6fd;
+}
+
+.containerButton{
+    width: 172px;
+    height: 52px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}

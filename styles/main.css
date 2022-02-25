@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.bg-dark {
+    background-color: #000!important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.subtitle{
+    color: #a9a3a3;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0px;
+    text-align: center;
+}
+
+.subtitle:before {
+    content: ".";
+    font-size: 70px;
+    left: -45px;
+    pointer-events: none;
+    position: absolute;
+    text-shadow: transparent 0px 0px;
+    top: -10px;
+    line-height: 0;
+    color: #17d0cf;
+    text-shadow: 15px 0 #17d0cf;
+}
+.subtitle:after {
+    content: ".";
+    font-size: 70px;
+    left: -45px;
+    pointer-events: none;
+    position: absolute;
+    text-shadow: transparent 0px 0px;
+    top: -10px;
+    line-height: 0;
+    color: #17d0cf;
+    text-shadow: 15px 0 #17d0cf;
+}
+.subtitle:after {
+right: -28px;
+left: inherit;
+}
+
+h2 {
+    font-family:  "Roboto", sans-serif;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.verticalDivider{
+    border-left: 2px solid #777777;
+    height: 100%;
+}
+.containerTopDivider {
+    border-top: 1px solid #ddd6d6;
+}
+
+.iconColorGradiant i{
+    /* color: red; */   
+    background:-moz-linear-gradient(to right, rgb(1, 166, 253) 0%, rgb(23, 208, 207) 51%, rgb(1, 166, 253) 100%);; 
+    background: -webkit-linear-gradient(to right, rgb(1, 166, 253) 0%, rgb(23, 208, 207) 51%, rgb(1, 166, 253) 100%);; 
+    background: linear-gradient(to right, rgb(1, 166, 253) 0%, rgb(23, 208, 207) 51%, rgb(1, 166, 253) 100%);;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+input {
+    height: 60px;
+    background-color: #f9f9f9;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 5px;
+    color: #777777;
+    font-family: "Roboto";
+}
+
+select {
+    height: 60px!important;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 0!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 15px;
+    color: #777777;
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;utf8,<?xml version=1.0 encoding=utf-8?><!DOCTYPE svg PUBLIC -//W3C//DTD SVG 1.1//EN http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd><svg xmlns=http://www.w3.org/2000/svg width=14 height=12 version=1><path d=M4 8L0 4h8z/></svg>");
+    padding: 0.5em;
+    padding-right: 1.5em;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.gradient-bg {
+    background: #17d0cf;
+    background-image: linear-gradient(to right, rgb(1, 166, 253) 0%, rgb(23, 208, 207) 51%, rgb(1, 166, 253) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: 200% auto;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background: gradient(left top, right top, color-stop(0%, #4eb3bf), color-stop(51%, #17d0cf), color-stop(100%, #4eb3bf));
+    background-image: linear-gradient(to right, rgb(1, 166, 253) 0%, rgb(23, 208, 207) 51%, rgb(1, 166, 253) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: 200% auto;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background: gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
+    background-image: linear-gradient(to right, rgb(1, 166, 253) 0%, rgb(23, 208, 207) 51%, rgb(1, 166, 253) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: 200% auto;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+    background-image: linear-gradient(to right, rgb(1, 166, 253) 0%, rgb(23, 208, 207) 51%, rgb(1, 166, 253) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: 200% auto;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: 200% auto;
+}
+
+.componentTitle h2 {
+    font-size: 55px;
+    font-weight: 300;
+    color: #333333;
+    margin: 0px;
+}
+
+.componentTitle h2 span{
+    font-weight: 700 !important;
+}
+

@@ -1,0 +1,130 @@
+/* -------------------- NAVBAR ------------------------------*/
+
+/* animation: animation-name animation-duration animation-direction animation-iteration-count */
+@keyframes navbar-animation{
+    0%{
+        padding: 45px 0px;
+        background-color: transparent;
+    }
+    100%{
+        background: #000000;
+        padding: 10px 0px;
+    }
+}
+@keyframes navbar-initial{
+    100%{
+        padding: 45px 0px;
+        background-color: transparent;
+    }
+}
+@keyframes navbar-link{
+    0%{
+        background: linear-gradient(to right, rgb(1, 166, 253, 0) 0%, rgb(23, 208, 207, 0) 51%, rgb(1, 166, 253, 0) 100%);
+    }
+    100%{
+        background: linear-gradient(to right, rgb(1, 166, 253, 1) 0%, rgb(23, 208, 207, 1) 51%, rgb(1, 166, 253, 1) 100%);
+    }
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.custom-toggler.navbar-toggler {
+border-color: transparent;
+} 
+.navbar{
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.navbar.inital{
+    animation: navbar-initial .3s linear 1 normal forwards;
+}
+
+.custom-toggler.navbar-toggler-icon {
+    border-color: #fff;
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: 125px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.rootNavbar{
+    animation: navbar-initial .3s linear 1 normal forwards;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    width: 100%;
+}
+.rootNavbar.afterscroll{
+    animation: navbar-animation .3s linear 1 normal forwards;
+}
+.nav-logo{
+    padding: 5px 0px 5px 12px;
+}
+
+.navbar-btn {
+    border-color: #ae142a;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ae142a;
+    padding: 6px 12px !important;
+    margin: 0px 0px 0px 10px;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.nav-menu {
+    margin: 0;
+    padding: 15px 12px 0px 0px;
+    align-items: center;
+    flex: 1;
+    width: 50%;
+    max-width: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+    list-style: none;
+    
+}
+
+.rootNavbar .navbar button span{
+    color: #fff !important;
+}
+.nav-link {
+    display: inline-block;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-weight: 500 !important;
+    position: relative;
+    border-radius: 4px;
+    -webkit-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+}
+
+.nav-link:hover{
+    background: linear-gradient(to right, rgb(1, 166, 253, 1) 0%, rgb(23, 208, 207, 1) 51%, rgb(1, 166, 253, 1) 100%);
+}
