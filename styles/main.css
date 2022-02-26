@@ -27,33 +27,30 @@ a{
     text-align: center;
 }
 
-.subtitle:before {
-    content: ".";
-    font-size: 70px;
-    left: -45px;
-    pointer-events: none;
-    position: absolute;
-    text-shadow: transparent 0px 0px;
-    top: -10px;
-    line-height: 0;
-    color: #17d0cf;
-    text-shadow: 15px 0 #17d0cf;
-}
-.subtitle:after {
-    content: ".";
-    font-size: 70px;
-    left: -45px;
-    pointer-events: none;
-    position: absolute;
-    text-shadow: transparent 0px 0px;
-    top: -10px;
-    line-height: 0;
-    color: #17d0cf;
-    text-shadow: 15px 0 #17d0cf;
-}
-.subtitle:after {
-right: -28px;
-left: inherit;
+@media screen and (min-width: 767px) {
+    .subtitle:before {
+        content: ".";
+        font-size: 70px;
+        bottom: 4px;
+        left: -20px;
+        position: relative;
+        text-shadow: transparent 0px 0px;
+        line-height: 0;
+        color: #17d0cf;
+        text-shadow: 15px 0 #17d0cf;
+    }
+    .subtitle:after {
+        content: ".";
+        font-size: 70px;
+        right: -4px;
+        pointer-events: none;
+        position: relative;
+        text-shadow: transparent 0px 0px;
+        bottom: 4px;
+        line-height: 0;
+        color: #17d0cf;
+        text-shadow: 15px 0 #17d0cf;
+    }
 }
 
 h2 {

@@ -136,6 +136,17 @@
     padding: 30px 0px;
 } 
 
+.containerFooterImg img{
+    width: 200px;
+    height: 65px;
+}
+
+.containerFooterImg{
+    display: flex;
+    justify-content:center;
+    align-items: center
+}
+
 /* .rootFooter {
     display: flex;
     flex-direction: column;
