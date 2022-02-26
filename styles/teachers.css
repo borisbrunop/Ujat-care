@@ -36,7 +36,8 @@
 
 .containerTeachers p{
     color: #fff !important;
-
+    width: 100%;
+    text-align: center;
 }
 .containerTeachers {
     width: 100%;
@@ -53,6 +54,13 @@
     margin: 100px 0px;
 }
 
+.iconsTeachers{
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
 .containerInfoTeachers .subtitle{
     color: #fff;
 }
@@ -64,9 +72,14 @@
 }
 
 .containerIconsTeachers{
-    width: 40%
+    width: 40%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 10px;
 }
-.containerNameTeachers::before{
+/* .containerNameTeachers::before{
     position: relative;
     display: block;
     content: '';
@@ -75,7 +88,7 @@
     width: 50px;
     left: 90px;
     background-color: #17d0cf;
-}
+} */
 
 .containerIconsTeachers .icon a{
     color: #adb8bf !important;
@@ -104,9 +117,10 @@
 .itemContactTeachers{
     background-color: #0a4a78;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    padding: 20px;
+    padding: 35px 20px;
     border-radius: 4px;
     width: 250px;
     margin: 0px 0px 50px 20px;
@@ -123,6 +137,7 @@
 .containerImgTeachers{
     width: 60%;
     height: 100%;
+    padding: 0px 10px;
 }
 .containerImgTeachers img{
     width: 100%;
