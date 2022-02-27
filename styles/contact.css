@@ -1,0 +1,65 @@
+.rootContact {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding: 80px 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-image: url(https://devlms.ujatech.com/public/images/contact-b.jpg?7074d794ff7f22c91999d1527d34bbf5);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.rootContact h2{
+    color: #000 !important;
+}
+
+.containerItemContact .icon {
+    box-sizing: content-box;
+    border-width: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-image: linear-gradient(69deg, #10abff, #1beabd);
+    border-image-slice: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 41px;
+    width: 41px;
+}
+
+.containerContact .containerButton {
+    padding: 10px 0px;
+}
+.containerItemContact i{
+    font-size: 35px;
+}
+.containerItemContact{
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.containerItemContact .info h6{
+    font-size: 20px;
+    font-weight: 600;
+}
+.containerItemContact .info h6 span{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.containerItemContact .info{
+    width: 100%;
+    padding-left: 20px;
+}
+
+
+
+.containerContact{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

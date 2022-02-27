@@ -14,13 +14,14 @@
     line-height: 30px;
     margin-right: 8px;
     border: 2px solid #17d0cf;
-    color: #666666;
+    color: #fff;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .socialFooter h2{
+    color: #fff;
     margin-bottom: 40px !important;
 }    
 .socialFooter {
@@ -36,7 +37,11 @@
 
 }
 .rootFooter {
-    margin: 10px
+    padding: 10px;
+    background-image: url(https://devlms.ujatech.com/public/images/contact-b.jpg?7074d794ff7f22c91999d1527d34bbf5);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .rootFooter .after-35 h2::after {
@@ -74,6 +79,7 @@
     font-weight: 300;
     font-size: 18px;
     font-weight: 300;
+    color: #fff;
 }
 .itemInfoFooter{
     padding: 0px 15px;
@@ -97,18 +103,12 @@
 .containerFinalFooter a{       
     font-weight: 300;
     margin-right: 1.5rem!important;
-    color: #777777 !important;
 }
 .infoFinalFooter{
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 30px 0px;
-}
-
-.containerLinks .link a{
-    color: #000 !important;
-
 }
 
 .containerLinks{
@@ -120,20 +120,21 @@
 }
 
 .infoFinalFooter p{
-    color: #777777;
+    color: #053a5a;
     font-weight: 300;
     margin: 0px;
 }       
 
 .infoFinalFooter a{       
     font-weight: 300;
-    color: #777777 !important;
+    color: #053a5a !important;
 }
 .infoFinalFooter{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding: 30px 0px 10px 0px;
+    border-top: 1px solid #06446a;
 } 
 
 .containerFooterImg img{
@@ -143,7 +144,7 @@
 
 .containerFooterImg{
     display: flex;
-    justify-content:center;
+    justify-content: flex-start;
     align-items: center
 }
 
