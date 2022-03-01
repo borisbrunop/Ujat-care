@@ -5,10 +5,8 @@
     padding: 80px 20px;
     align-items: flex-start;
     flex-direction: column;
-    /* background-image: url(https://devlms.ujatech.com/public/images/contact-b.jpg?7074d794ff7f22c91999d1527d34bbf5);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    max-width: 1700px;
+    margin: auto;
 }
 
 .rootContact h2{
@@ -28,6 +26,41 @@
     height: 41px;
     width: 41px;
 }
+@media screen and (min-width: 1430px) {
+    .containerContact p{
+        font-size: 20px !important;
+    }
+    .containerItemContact .info h6{
+        font-size: 30px !important;
+    }
+    .containerItemContact .info h6 span{
+        font-size: 30px !important;
+    }
+    .containerItemContact .icon{
+        padding: 15px !important;
+    }
+    .containerItemContact i{
+        font-size: 45px !important;
+    }
+}
+/* @media screen and (max-width: 540px) {
+    .containerReasons{
+        padding: 0px !important;
+    }
+} */
+@media screen and (max-width: 767px) {
+    .containerItemContact .info h6{
+        font-size: 20px !important;
+    }
+    .containerItemContact .info h6 span{
+        font-size: 20px !important;
+    }
+}
+
+
+.containerContact p{
+    font-size: 17px;
+}
 
 .containerContact .containerButton {
     padding: 10px 0px;
@@ -42,11 +75,11 @@
 }
 
 .containerItemContact .info h6{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 .containerItemContact .info h6 span{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
 }
 

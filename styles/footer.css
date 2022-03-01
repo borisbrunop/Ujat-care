@@ -7,6 +7,40 @@
     margin-bottom: 65px;
 } */
 
+@media screen and (min-width: 1430px) {
+    .itemInfoFooter p{
+        font-size: 20px !important;
+    }
+    .socialFooter h2 {
+        font-size: 45px;
+    }
+    .rootFooter .after-28 h2::after {
+        left: 34% !important;
+    }
+    .rootFooter .after-18 h2::after {
+        left: 27% !important;
+    }
+    .containerLinks .link a{
+        font-size: 20px;
+    }
+    .socialFooter .icon{
+        height: 45px !important;
+        width: 45px !important;
+    }
+    .socialFooter .icon a {
+        font-size: 27px;
+    }
+}
+/* @media screen and (max-width: 767px) {
+    .containerIconsTeachers .icon a{
+        padding: 0px !important;
+        font-size: 18px !important;
+    }
+    .containerNameTeachers{
+        font-size: 18px !important;
+    }
+} */
+
 .socialFooter .icon{
     height: 30px;
     width: 30px;
@@ -34,7 +68,11 @@
 }
 .containerIcons{
     display: flex;
+}
 
+.containerFooter{
+    max-width: 1700px;
+    margin: auto;
 }
 .rootFooter {
     padding: 10px;
@@ -120,21 +158,21 @@
 }
 
 .infoFinalFooter p{
-    color: #053a5a;
+    color: #001d30;
     font-weight: 300;
     margin: 0px;
 }       
 
 .infoFinalFooter a{       
     font-weight: 300;
-    color: #053a5a !important;
+    color: #001d30 !important;
 }
 .infoFinalFooter{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 30px 0px 10px 0px;
-    border-top: 1px solid #06446a;
+    padding: 20px 0px 10px 0px;
+    border-top: 1px solid #001d30;
 } 
 
 .containerFooterImg img{

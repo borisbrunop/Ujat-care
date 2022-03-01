@@ -11,7 +11,7 @@
 }
 
 .containerSearch{
-    max-width: 1200px;
+    max-width: 1700px;
     width: 90%;
 }
 
@@ -82,6 +82,71 @@
     align-items: center;
     padding: 0px 10px;
     font-size: 33px;
+}
+
+@media screen and (min-width: 1430px) {
+    .footerItemSearch .text span{
+        font-size: 40px !important;
+    }
+    .containerCard .cardBody p{
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .containerCard {
+        width: 90% !important;
+    }
+}
+
+.containerCard {
+    height: 550px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    width: 80%
+}
+
+.cardImgContainer img {
+    object-fit: cover;
+}
+
+.containerCard .cardBody .seeMore{
+    font-weight: 700;
+    font-size: 17px;
+    color: #000 !important;
+}
+.containerCard .cardBody{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.containerCard .cardBody h5 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.containerCard .cardBody p {
+    font-size: 15px;
+}
+
+.cardButton{
+    height: 52px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card-text a {
+    color: #000 !important;
+}
+
+.cardImg {
+    height: 200px;
 }
 
 .footerItemSearch .text {

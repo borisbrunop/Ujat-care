@@ -18,6 +18,12 @@ a{
     margin: 0 auto;
 }
 
+@media screen and (min-width: 1430px) {
+    .subtitle{
+        font-size: 23px;
+    }
+}
+
 .subtitle{
     color: #a9a3a3;
     letter-spacing: 7px;
@@ -82,7 +88,7 @@ input {
 }
 
 .maxWidth{
-    max-width: 1200px;
+    max-width: 1700px;
 }
 
 .verticalDivider{
@@ -197,8 +203,19 @@ button{
     background-size: 200% auto;
 }
 
+@media screen and (min-width: 1430px) {
+    .componentTitle h2 {
+        font-size: 80px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .componentTitle h2 {
+        font-size: 50px !important;
+    }
+}
+
 .componentTitle h2 {
-    font-size: 55px;
+    font-size: 70px;
     font-weight: 300;
     color: #333333;
     margin: 0px;
