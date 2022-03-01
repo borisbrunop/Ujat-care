@@ -81,6 +81,10 @@ input {
     border-image: initial;
 }
 
+.maxWidth{
+    max-width: 1200px;
+}
+
 .verticalDivider{
     border-left: 2px solid #777777;
     height: 100%;
