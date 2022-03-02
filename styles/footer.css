@@ -14,12 +14,12 @@
     .socialFooter h2 {
         font-size: 45px;
     }
-    .rootFooter .after-28 h2::after {
+    /* .rootFooter .after-28 h2::after {
         left: 34% !important;
     }
     .rootFooter .after-18 h2::after {
         left: 27% !important;
-    }
+    } */
     .containerLinks .link a{
         font-size: 20px;
     }
@@ -29,6 +29,10 @@
     }
     .socialFooter .icon a {
         font-size: 27px;
+    }
+    .containerFooterImg img{
+        width: 250px !important;
+        height: 90px !important;
     }
 }
 /* @media screen and (max-width: 767px) {
@@ -88,8 +92,8 @@
     content: '';
     bottom: -20px;
     height: 2px;
-    width: 50px;
-    left: 35%;
+    width: 50%;
+    /* left: 35%; */
     background-color: #17d0cf;
 }
 .rootFooter .after-28 h2::after {
@@ -98,8 +102,8 @@
     content: '';
     bottom: -20px;
     height: 2px;
-    width: 50px;
-    left: 28%;
+    width: 50%;
+    /* left: 28%; */
     background-color: #17d0cf;
 }
 .rootFooter .after-18 h2::after {
@@ -108,8 +112,8 @@
     content: '';
     bottom: -20px;
     height: 2px;
-    width: 50px;
-    left: 18%;
+    width: 50%;
+    /* left: 18%; */
     background-color: #17d0cf;
 }
 
@@ -154,7 +158,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .infoFinalFooter p{

@@ -87,6 +87,10 @@ input {
     border-image: initial;
 }
 
+.justifyEvenly{
+    justify-content: space-evenly;
+}
+
 .maxWidth{
     max-width: 1700px;
 }
