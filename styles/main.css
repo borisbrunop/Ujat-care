@@ -57,6 +57,9 @@ a{
         color: #17d0cf;
         text-shadow: 15px 0 #17d0cf;
     }
+    .componentTitleInfo{
+        font-size: 18px !important;
+    }
 }
 
 h2 {
@@ -114,9 +117,24 @@ input {
     -webkit-text-fill-color:transparent;
 }
 
+.containerInputs input{
+    width: 100%;
+}
+.containerInputs select{
+    width: 100%;
+}
+
+.maxWidth1000{
+    max-width: 1000px;
+}
+
+.maxWidth850{
+    max-width: 850px;
+}
+
 input {
     height: 60px;
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
     border: none;
     padding: 0px 20px;
     border-radius: 5px;
@@ -126,7 +144,7 @@ input {
 
 select {
     height: 60px!important;
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
     border: none;
     border-radius: 0!important;
     -webkit-appearance: none;
@@ -227,5 +245,12 @@ button{
 
 .componentTitle h2 span{
     font-weight: 700 !important;
+}
+
+.componentTitleInfo{
+    max-width: 850px;
+    padding: 0px 20px;
+    text-align: justify;
+    font-size: 20px;
 }
 

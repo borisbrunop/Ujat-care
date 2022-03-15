@@ -6,13 +6,11 @@
     align-items: center;
     flex-direction: column;
 }
-.rootSearch .componentTitle h2{
-    color: #000 !important;
-}
 
 .containerSearch{
     max-width: 1700px;
     width: 90%;
+    justify-content: center;
 }
 
 .rootTitleSearch{
@@ -104,15 +102,65 @@
         width: 90% !important;
     }
 }
+.buttonCard{
+    margin: 40px 0px 0px 0px;
+}
 
 .containerCard {
-    height: 600px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-    width: 80%
+    transition: .3s all ease-in-out;
+    width: 80%;
+    position: relative;
+    height: 470px;
+}
+.containerCard:hover {
+    box-shadow: 10px 23px 20px 0 rgb(0 0 0 / 20%);
+}
+
+.containerCard:hover .cardImgContainer::before{
+    opacity: .6 !important;
+}
+.containerCard:hover .detailsImg{
+    transform: translateX(0px) !important;
+}
+
+.detailsImg {
+    position: absolute;
+    right: 10px;
+    padding: 10px 0px;
+    transition: .3s all ease-in-out;
+    bottom: 0px;
+    transform: translateX(90px);
 }
 
 .cardImgContainer img {
     object-fit: cover;
+}
+.cardImgContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.cardImgContainer::before {
+    transition: .3s all ease-in-out;
+}
+
+/* .cardImgContainer:hover::before{
+    opacity: .6 !important;
+} */
+
+.cardImgContainer::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#000,#0258a2);
+    opacity: 0;
+    z-index: 0;
 }
 
 .containerCard .cardBody .seeMore{

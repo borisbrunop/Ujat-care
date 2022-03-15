@@ -1,0 +1,50 @@
+@media screen and (max-width: 767px) {
+    .imgAbout img{
+        height:50px !important; 
+        width:270px !important;
+    }
+    .imgAboutEvv img{
+        height:50px !important; 
+        width:130px !important;
+    }
+}
+
+
+.solutionsAbout{
+    font-weight: 700;
+    text-align: left;
+    max-width: 850px;
+    width: 100%;
+    font-size: 20px;
+    padding: 50px 20px;
+}
+
+.imgAbout{
+    width: 100%;
+    padding: 50px 10px;
+    justify-content: left;
+}
+.imgAboutEvv{
+    width: 100%;
+    padding: 50px 10px;
+    justify-content: left;
+}
+.imgAbout img{
+    height:94px; 
+    width:544px
+}
+.imgAboutEvv img{
+    height:102px; 
+    width:238px
+}
+
+.buttonAbout{
+    width: 100%;
+    padding: 0px 20px;
+    justify-content: right;
+    display: flex;
+}
+.buttonAbout a{
+    border-radius: 6px;
+    padding: 7px;
+}
