@@ -269,3 +269,11 @@
 .containerCardEnroll .cardBody p {
     font-size: 15px;
 }
+.priceTag{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
