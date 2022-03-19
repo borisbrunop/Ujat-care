@@ -162,7 +162,7 @@
 }
 
 .infoFinalFooter p{
-    color: #001d30;
+    color: #001d30 !important;
     font-weight: 300;
     margin: 0px;
 }       

@@ -1,0 +1,125 @@
+@media screen and (min-width: 1430px) {
+    .containerNameInst{
+        font-size: 40px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .containerNameInst{
+        font-size: 30px !important;
+    }
+    .containerMailInst{
+        font-size: 20px !important;
+    }
+    .curriculumsList{
+        padding: 30px 0px !important;
+    }
+}
+
+.containerMailInst{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.containerNameInst{
+    font-weight: 700;
+    font-size: 35px;
+    padding: 10px 0px 0px 0px ;
+    margin: 0px !important;
+}
+
+.rootInst{
+    padding: 140px 0px 0px 0px;
+}
+
+.containerImgInst{
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.containerImgInst img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.instCurriculums:hover {
+    box-shadow: 0px 0px 15px 2px rgb(0 0 0 / 20%);
+}
+.instCurriculums{
+    color: #000 !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s all ease-in-out;
+}
+
+.instCurriculums p {
+    margin: 0px !important;
+}
+.instCurriculums i {
+    transition: .3s all ease-in-out;
+}
+.instCurriculums:hover i {
+    color: #17D0CE
+}
+
+.curriculumsList {
+    padding: 20px 0px 0px 0px;
+}
+
+.containerStepsInst{
+    padding: 80px 0px 0px 0px;
+}
+
+.footerItemSearchInst .text {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.footerItemSearchInst .text span{
+    font-size: 30px;
+    color: #333333;
+    line-height: .9;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footerItemSearchInst .text .stepTitleInst{
+    padding: 0px 20px;
+}
+.stepsLink{
+    color: #17D0CE !important;
+}
+
+.footerItemSearchInst .text p{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+}
+.footerItemSearchInst p a {
+    color: #000 !important;
+}
+.footerItemSearchInst .icon {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: 33px;
+}
+.footerItemSearchInst {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.listSteps{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+    padding: 0px;
+}
+
